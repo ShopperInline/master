@@ -1,0 +1,89 @@
+.myMenu{
+
+	position: relative;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.navbar{
+	margin-right: 12%;
+	margin-left: 12%;
+
+}
+#slider img{
+
+	width: 100%;
+
+}
+.container>p{
+margin-right: 5% !important;
+margin-left: 5% !important;
+
+}
+ 
+ .container .col-lg-11{
+    
+ 	margin-left: 4%;
+ }
+.navbar-fixed-top .row .col-lg-6 .search-button{
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 2px 2px 3px #666;
+	padding: 2px 7px;
+	outline: 0;
+	clear: both;
+
+
+}
+.navbar-fixed-top .header-link>li .login{
+	border-right: 1px dotted green;
+    list-style: none;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.navbar-fixed-top .header-link>li .signup{
+    list-style: none;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.navbar-fixed-top .search .search-text{
+	margin-top: 1%;
+	width: 80%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px 0 0 10px;
+	box-shadow: 2px 2px 3px #666;
+	padding: 4px 7px;
+	outline: 0;
+	clear: both;
+	-webkit-appearance: none;
+}
+.navbar-fixed-top .container .search .search-text:focus{
+	border-color: #339933;
+
+}
+
+.dropdown-menu >li: hover a{
+	display: block;
+}
+
+ul li :hover ul{
+
+	display: block;
+}
+/*------login page csss---*/
+
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.input-group { margin-bottom:10px; }
+.separator { border-right: 1px solid #dfdfe0; }
+.facebook,.twitter { min-width:170px; }
+.facebook { background-color:#354E84;color:#fff; }
+.twitter { background-color:#00A5E3;color:#fff; }
+.facebook:hover,.twitter:hover { color:#fff; }
+
+/*--------------testing ----*/
+
