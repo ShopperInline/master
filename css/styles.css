@@ -5,6 +5,33 @@
 	text-align: center;
 
 }
+a:link {
+    text-decoration: none;
+
+}
+li{
+
+    text-align: left;
+	list-style: none;
+}
+
+.help_text{float: none; width: auto; height: auto;}
+.help_text ul{float: none; width: auto; height: auto;}
+.help_text_ol{float: left; list-style-type: decimal;width: auto; height: auto;font-size: 15px;line-height: 30px;margin-left:5px;}
+.help_text_li{text-align: justify; float: left; list-style-type: lower-alpha;width: auto; height: auto;font-family: Trebuchet MS, Arial, sans-serif, Verdana; font-size:14px;margin-left:30px; line-height: 15px; margin-bottom: 10px;}
+.help_text_normal{text-align: justify;float: left; list-style:none;width: auto; height: auto;font-family: Trebuchet MS, Arial, sans-serif, Verdana; font-size:11px;line-height: 15px;margin-left:30px;margin-bottom: 10px;}
+.help_display_text{text-align: justify;float: left; width: auto; height: auto;font-family: Trebuchet MS, Arial, sans-serif, Verdana; font-size:11px;line-height: 15px; margin-left:30px;margin-bottom: 10px;}
+.help_display_text_small{text-align: justify; float: none; list-style-type: decimal;width: auto; height: auto;font-family: Trebuchet MS, Arial, sans-serif, Verdana; font-size:11px;line-height: 15px;font-weight: normal;margin-left:30px;margin-bottom: 10px;}
+.header_text{font-size:12px;	width:100%; min-height: 75px;	float:left; background:none repeat scroll 0 0 #e3e3e3;}
+.header_text span{float: left; font-size:25px; font-weight:bold; color:#333;padding:20px;height: 40px; line-height: 40px;}
+
+.left_box{height:auto; margin:2px auto; width:930px;}
+.round_box{height:auto; width:99%; float:left; margin:5px;}
+.round_top{height:auto; width:100%; float:left;  }
+.round_left_top{height:7px; width:7px; float:left;}
+.round_right_top{height:7px; width:7px; float:right;}
+.round_center{height:auto; width:100%; float:left; }
+#left_coloms { float: left;  height: auto;  width: 98%;  border: 1px solid #999999;   margin-right: 10px; margin-left: 15px; margin-bottom: 10px; margin-top: 10px; font-family: Trebuchet MS, Arial, sans-serif, Verdana; font-size:12px;}
 
 .navbar{
 	margin-right: 12%;
